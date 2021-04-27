@@ -22,9 +22,8 @@ const Map = () => {
   return (
     <>
       <MapContainer
-        maxBounds={[[78, -40], [23, -190]]}
-        center={[38, -82]}
-        zoom={8}
+        center={[37.0902, -95.7129]}
+        zoom={3}
         zoomControl={false}
         style={{ height: "100vh", width: "100%", padding: 0 }}
         whenCreated={map => setMap(map)}
